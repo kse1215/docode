@@ -1,13 +1,71 @@
 @charset "utf-8";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: #0a0a0a;
+a {
+  text-decoration: none;
+  color: #0a0a0a;
 }
+/* 공통영역 */
+.inner {
+  position: relative;
+  width: 1180px;
+  margin: auto;
+  /* background-color: blueviolet; */
+}
+/* 전체레이아웃 */
+/* 상단 */
+.header {
+  width: 100%;
+  background-color: #eee;
+}
+.header .inner {
+  height: 120px;
+}
+/* 상단top */
+.header-top {
+  height: 60px;
+}
+.util {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  line-height: 60px;
+}
+.util > li > a {
+  font: 13px/1 "arial";
+}
+/* 상단bottom */
+.header-bt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+#gnb {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 800px;
+}
+#gnb li{
+    width: calc(100% / 5);
+}
+#gnb a {
+    /* width: 100%; */
+    display: block;
+    line-height: 60px;
+}
+#gnb a:hover{
+    color: #fff;
+    background-color: #333;
+}
+/* 비주얼 */
+/* 뉴스 */
+/* 하단 */
