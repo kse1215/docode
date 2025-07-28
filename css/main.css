@@ -108,4 +108,25 @@ figure .inner a:hover {
   background-color: #bbb;
 }
 /* 뉴스 */
+section{
+    padding: 200px 0;
+}
+section > .inner > h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-wrap ul {
+  display: flex;
+  gap: 20px;
+}
+.section-wrap ul li {
+  width: calc(100% / 4);
+}
+.pic{
+    height: 150px;
+    overflow: hidden;
+}
+.pic img {
+  width: 100%;
+}
 /* 하단 */
