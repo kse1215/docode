@@ -23,7 +23,7 @@ a {
 /* 상단 */
 .header {
   width: 100%;
-  background-color: #eee;
+  /* background-color: #eee; */
 }
 .header .inner {
   height: 120px;
@@ -85,6 +85,7 @@ figure video {
   display: block;
   opacity: 0.3;
 }
+/* 비디오 내용 */
 figure .inner h2 {
   font: 120px/1 "arial";
   color: #fff;
@@ -108,12 +109,13 @@ figure .inner a:hover {
   background-color: #bbb;
 }
 /* 뉴스 */
-section{
-    padding: 200px 0;
+section {
+  padding: 200px 0;
 }
-section > .inner > h2{
-    text-align: center;
-    padding-bottom: 50px;
+section > .inner > h2 {
+  font: bold 24px/1 "arial";
+  text-align: center;
+  margin-bottom: 50px;
 }
 .section-wrap ul {
   display: flex;
@@ -122,11 +124,26 @@ section > .inner > h2{
 .section-wrap ul li {
   width: calc(100% / 4);
 }
-.pic{
-    height: 150px;
-    overflow: hidden;
+.pic {
+  position: relative;
+  height: 120px;
+  overflow: hidden;
 }
 .pic img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
+  display: block;
+}
+.section-wrap h3 {
+  padding-top: 20px;
+  font: bold 16px/1 "arial";
+  color: #555;
+}
+.section-wrap p {
+  padding-top: 10px;
+  font: 14px/1 "arial";
+  color: #777;
 }
 /* 하단 */
