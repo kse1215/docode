@@ -147,3 +147,40 @@ section > .inner > h2 {
   color: #777;
 }
 /* 하단 */
+.footer {
+  padding: 100px 0;
+  background-color: #333;
+}
+/* 하단 top */
+.upper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #777;
+  padding-bottom: 20px;
+}
+.upper ul {
+  display: flex;
+  gap: 20px;
+}
+.upper h2 a {
+  color: #888;
+  font: bold 24px/1 "arial";
+}
+.upper ul li a {
+  color: #777;
+  font: bold 14px/1 "arial";
+}
+/* 하단 bottom */
+.lower {
+  margin-top: 20px;
+}
+.lower address {
+  font: 12px/1.3 "arial";
+  color: #777;
+  margin-bottom: 20px;
+}
+.lower p {
+  font: 12px/1 "arial";
+  color: #777;
+}
